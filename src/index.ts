@@ -92,7 +92,7 @@ async function main() {
 
   await build({
     bundle: false,
-    format: "cjs",
+    format: "esm",
     platform: "node",
     ...esbuildOptions,
   });
